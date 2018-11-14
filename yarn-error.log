@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/trevorj/.nvm/versions/node/v8.9.4/bin/node /Users/trevorj/.nvm/versions/node/v8.9.4/bin/yarn add express jsonwebtokens
+
+PATH: 
+  /Users/trevorj/.nvm/versions/node/v8.9.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  8.9.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/jsonwebtokens: Not found
+      at Request.params.callback [as _callback] (/Users/trevorj/.nvm/versions/node/v8.9.4/lib/node_modules/yarn/lib/cli.js:61073:18)
+      at Request.self.callback (/Users/trevorj/.nvm/versions/node/v8.9.4/lib/node_modules/yarn/lib/cli.js:120166:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/Users/trevorj/.nvm/versions/node/v8.9.4/lib/node_modules/yarn/lib/cli.js:121138:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/Users/trevorj/.nvm/versions/node/v8.9.4/lib/node_modules/yarn/lib/cli.js:121060:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "api",
+    "version": "1.0.0",
+    "description": "api endpoint",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Trevor joseph",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
